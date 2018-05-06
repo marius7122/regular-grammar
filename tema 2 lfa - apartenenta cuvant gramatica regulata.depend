@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1525604022 source:c:\work\c++\tema 2 lfa - apartenenta cuvant gramatica regulata\main.cpp
+	<iostream>
+	"RG.h"
+
+1525603862 c:\work\c++\tema 2 lfa - apartenenta cuvant gramatica regulata\rg.h
+	<map>
+	<string>
+
+1525603766 source:c:\work\c++\tema 2 lfa - apartenenta cuvant gramatica regulata\rg.cpp
+	"RG.h"
+	<iostream>
+

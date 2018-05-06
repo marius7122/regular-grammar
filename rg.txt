@@ -1,0 +1,6 @@
+SA
+abc
+S aS
+S bA
+A eps
+A cA
