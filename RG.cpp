@@ -54,7 +54,6 @@ void reverse(string &s)
 
 bool RG::wordIsCorrect(string s)
 {
-    //cout<<"IN CORECT: "<<<<" HERE\n";
     for(char c : s)
         if(T.find(c) == string::npos)
         {
@@ -71,11 +70,11 @@ bool RG::testWord(string s)
         return false;
     }
 
-    if(isLeftRegular)
-        reverse(s);
-
     if(s.length() == 0)
         return false;
+
+    if(isLeftRegular)
+        reverse(s);
 
     char state = 'S';
 
