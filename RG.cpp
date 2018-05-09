@@ -52,8 +52,25 @@ void reverse(string &s)
     }
 }
 
+bool RG::wordIsCorrect(string s)
+{
+    //cout<<"IN CORECT: "<<<<" HERE\n";
+    for(char c : s)
+        if(T.find(c) == string::npos)
+        {
+            return false;
+        }
+    return true;
+}
+
 bool RG::testWord(string s)
 {
+    if(wordIsCorrect(s) == false)
+    {
+        cout<<"cuvantul nu este corect ";
+        return false;
+    }
+
     if(isLeftRegular)
         reverse(s);
 

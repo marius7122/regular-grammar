@@ -22,6 +22,7 @@ class RG
 
 public:
     void readFromFile(const string &fileName);
+    bool wordIsCorrect(string s);
     bool testWord(string s);
     void testWordsFromFile(const string &fileName);
     void afis();

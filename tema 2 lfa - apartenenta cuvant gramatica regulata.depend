@@ -11,3 +11,16 @@
 	"RG.h"
 	<iostream>
 
+1525850270 source:d:\work\c++\regular-grammar\main.cpp
+	<iostream>
+	"RG.h"
+
+1525850398 d:\work\c++\regular-grammar\rg.h
+	<map>
+	<string>
+
+1525850752 source:d:\work\c++\regular-grammar\rg.cpp
+	"RG.h"
+	<iostream>
+	<fstream>
+
