@@ -8,6 +8,11 @@ bool isUpper(char c)
     return c >= 'A' && c <= 'Z';
 }
 
+bool isLower(char c)
+{
+    return c >= 'a' && c <= 'z';
+}
+
 void RG::readFromFile(const string &fileName)
 {
     ifstream fin(fileName);
@@ -81,7 +86,7 @@ bool RG::testWord(string s)
     for(char c : s)
         state = trans[{state, c}];
 
-    return isFinal[state];
+    return isFinal[state] || isLower(state);
 }
 
 void RG::testWordsFromFile(const string &fileName)

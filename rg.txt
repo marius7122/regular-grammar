@@ -1,6 +1,8 @@
-SA
+SAB
 abc
 S aS
 S bA
 A eps
-A cA
+A cB
+B aA
+B bS
